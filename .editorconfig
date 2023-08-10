@@ -1,0 +1,8 @@
+[*.{cs,vb}]
+dotnet naming rule.private members with underscore.symbols = private_fields
+dotnet naming rule.private members with underscore.style = prefix_underscore
+dotnet naming rule.private members with underscore.severity = suggestion
+dotnet naming symbols.private fields.applicable kinds = field
+dotnet naming symbols.private fields.applicable accessibilities = private
+dotnet naming style.prefix underscore.capitalization = camel_case
+dotnet naming style.prefix underscore, required_prefix = _
