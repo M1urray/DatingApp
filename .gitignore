@@ -480,3 +480,4 @@ API/datingapp.db-shm
 .gitignore
 API/datingapp.db
 API/datingapp.db-wal
+client/.angular
