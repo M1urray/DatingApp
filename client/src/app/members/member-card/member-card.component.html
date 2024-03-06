@@ -1,7 +1,7 @@
 <div class="card mb-4" *ngIf="member">
     <div class="card-img-wrapper">
         <img src="{{member.photoUrl || './assets/user.png'}}" alt="{{member.knownAs}}" class="card-img-top">
-        <ul class="li-inline member-icons animate text-centre">
+        <ul class="list-inline member-icons animate text-centre">
             <li class="list-inline-item">
                 <button routerLink="/members/{{member.userName}}" class="btn btn-primary">
                     <i class="fa fa-user"></i>
@@ -21,7 +21,7 @@
     </div>
     <div class="card-body p-1">
         <h6 class="card-title text-center mb-1">
-            <i class="fa fa-user me-2"></i>
+            <i class="fa fa-user mr-2"></i>
             {{member.knownAs}}
         </h6>
         <p class="card-text text-muted text-centre">
